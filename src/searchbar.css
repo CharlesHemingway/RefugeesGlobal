@@ -1,0 +1,65 @@
+
+#searchbar {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+
+#searchbar input {
+  font-size: 19px;
+  outline: none;
+}
+
+
+
+#searchbar input[type="text"] {
+  padding: 20px 15px;
+  width: 720px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-top-left-radius: 3px;
+  -webkit-border-top-left-radius:3px;
+  -moz-border-top-left-radius: 3px;
+  border-bottom-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-bottom-left-radius:3px;
+}
+
+#searchbar input[type="text"]:focus {
+  padding: 19px 15px 20px;
+  border-bottom: 3px solid #e84750;
+   transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+
+#searchbar input[type="submit"] {
+  width: 200px;
+  display: inline-block;
+  padding: 20px 0;
+  border: none;
+  color: #fff;
+  background-color: #ff3a44;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;  
+  border-top-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-top-right-radius: 3px;
+  border-bottom-right-radius:3px;
+  -webkit-border-bottom-right-radius:3px;
+  -moz-border-bottom-right-radius:3px;
+ 
+}
+
+#searchbar input[type="submit"]:hover {
+  background-color: #e84750;
+
+}
+

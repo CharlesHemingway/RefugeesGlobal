@@ -1,0 +1,26 @@
+.Main {
+  text-align: left;
+}
+
+.Main-header {
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  padding: 120px;
+
+ }
+
+.Main-intro {
+  font-size: large;
+
+}
+
+
+.Main-footer {
+  background-color: #e0e0e0;
+  height: auto;
+  width: auto;
+  padding: 10px;
+
+ }
+
