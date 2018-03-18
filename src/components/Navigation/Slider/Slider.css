@@ -1,11 +1,18 @@
-.ds-title {
-	font-size: 19px;
-	font-weight: 400;
-	padding-top: 45px;
-	padding-bottom: 20px;
+.Title {
+  font-size: 48px;
+  font-weight: 300;
+  color: #484848;
+  margin: 60px 0;
+  text-align: left;
+
 }
 
-.display-slider {
+.Title span {
+  color: #ff3a44;
+  font-weight: 700;
+}
+
+.displayslider {
 	position: relative;
 	width: 100%;
 	height: auto;
@@ -13,7 +20,7 @@
 	
 }
 
-.ds-div {
+.dsdiv {
 	position: relative;
 	display: inline-block;
 	width: 22%;
@@ -27,7 +34,7 @@
 
 }
 
-.ds-div:hover {
+.dsdiv:hover {
   color: #606060;
   background-color: #606060;
   width: 24%;
@@ -39,11 +46,11 @@
 
 
 
-.ds-div:last-of-type {
+.dsdiv:last-of-type {
 	margin-right: 0;
 }
 
-#display-sliders-wrapper {
+.DisplaySlidersWrapper {
 	position: relative;
 	width: 100%;
 	height: auto;
@@ -52,10 +59,33 @@
 }
 
 
-.ds-div p{
+.dsdiv p{
 	color:#fff;
 	font-size:22px;
 	margin-top: 15px;
+}
+
+.clearfix::after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.row {
+	position: relative;
+	max-width: 970px;
+	height: auto;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+@media all and (max-width: 500px) {
+	.row {
+		padding: 0 15px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
 }
 
 

@@ -1,0 +1,26 @@
+
+.Motto {
+  font-size: 48px;
+  font-weight: 400;
+  color: white;
+  margin: 60px 0;
+  z-index: 100;
+
+}
+
+.Motto span {
+  color: #ff3a44;
+  font-weight: 700;
+  z-index: 100;
+}
+
+.MottoWrapper {
+    color: black;
+
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

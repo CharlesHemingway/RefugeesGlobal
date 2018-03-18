@@ -1,0 +1,28 @@
+.Logo {
+    background-color: transparent;
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Logo img {
+    height: 100%;
+}
+
+
+.Logo:link {
+  color: #484848;
+  display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transition:all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -0-transition: all 0.3s ease;
+}
+
+.Logo:visited {
+  color: #484848;
+
+}
+
+

@@ -1,19 +1,20 @@
 
-#searchbar {
+.SearchBar {
   position: relative;
   width: 100%;
   height: auto;
+  align-self: center;
 }
 
 
-#searchbar input {
+.SearchBar input {
   font-size: 19px;
   outline: none;
 }
 
 
 
-#searchbar input[type="text"] {
+.SearchBar input[type="text"] {
   padding: 20px 15px;
   width: 720px;
   display: inline-block;
@@ -27,9 +28,9 @@
   -moz-border-bottom-left-radius:3px;
 }
 
-#searchbar input[type="text"]:focus {
+.SearchBar input[type="text"]:focus {
   padding: 19px 15px 20px;
-  border-bottom: 3px solid #e84750;
+  border-bottom: 3px solid red;
    transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -37,7 +38,7 @@
 }
 
 
-#searchbar input[type="submit"] {
+.SearchBar input[type="submit"] {
   width: 200px;
   display: inline-block;
   padding: 20px 0;
@@ -58,8 +59,13 @@
  
 }
 
-#searchbar input[type="submit"]:hover {
+.SearchBar input[type="submit"]:hover {
   background-color: #e84750;
 
 }
 
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

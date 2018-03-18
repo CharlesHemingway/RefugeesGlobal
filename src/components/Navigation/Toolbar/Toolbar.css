@@ -1,17 +1,26 @@
-
-.navbar {
-  position: relative;
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  z-index: 200;
+.Toolbar {
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	padding: 0 10px;
+	box-sizing: border-box;
   border-bottom: 1px solid #eee;
   box-shadow: 0 3px 5px rgba(0,0,0,0.1);
-  
- 
+	z-index: 90;
 }
 
-.navbar.active {
+.Toolbar nav{
+	height:100%;
+
+}
+
+.Toolbar.active {
   position: fixed;
   top: 0;
   left: 0;
@@ -20,22 +29,23 @@
 }
 
 
-#nav-search-wrapper {
+#searchwrapper {
   display: inline-block;
-  width: 490px;
-  height: 100%;
+  top:0;
+  width: 500px;
+  height: 30px;
 
 
 }
 
-#nav-search-wrapper form svg {
+#searchwrapper form svg {
   width: 18px;
   height: 12px;
   vertical-align: middle;
 
 }
 
-#nav-search-wrapper form input {
+#searchwrapper form input {
   padding: 22px 10px 18px 52px;
   width: 100%;
   border:none;
@@ -47,36 +57,41 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   display: border-box; 
-  background-image: url('search-icon.svg');
+  background-image: url('./search-icon.svg');
   background-repeat: no-repeat;
   background-position: 20px;
   background-size: 25px;
 }﻿
 
-#nav-search-wrapper form input::-webkit-input-placeholder {
+#searchwrapper form input::-webkit-input-placeholder {
  color: #666; 
  font-size: 14px;
 
 
 }
 
-.navbar ul {
+.Toolbar ul {
   float: right;
   padding: 22px 0;
 }
 
-.navbar ul li {
+.Toolbar ul li {
   display: inline-block;
   margin: 0 30px;
 }
 
-.navbar ul li a:link {
+.Toolbar ul li a:link {
   color: #484848;
   font-size: 14px;
 }
 
-.navbar ul li a:visited {
+.Toolbar ul li a:visited {
   color: #484848;
 }
 
 
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

@@ -6,12 +6,12 @@ RefugeesGlobal is a React and ReactNative global humanitarian platform where NGO
 
 ##issues / notes
 
-None functioning Front or Backend.
-
-Need to workout file structure and wanted features.
+Sidedrawer needs to open
+Modules need to be made mobile compatiable
 
 Currently brainstorming on how to build App using Ethereum and how to connect the backend to the G [https://github.com/GetGee/G] universal database. 
 
+View sample here: http://refugeesglobal-demo.surge.sh
 
 
 ### Comms
