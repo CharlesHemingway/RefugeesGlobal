@@ -17,8 +17,9 @@ View sample here: http://refugeesglobal-demo.surge.sh
 ### Comms
 
 Slack:refugeesglobal.slack.com
-Email:contact@refugees.global 
-Twitter:https://twitter.com/OssielTweets
+Email:refugeesglobal@gmail.com 
+Twitter:https://twitter.com/RefugeesGlobal
+
 
 
 
