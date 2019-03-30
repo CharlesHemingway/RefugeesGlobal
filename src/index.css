@@ -1,48 +1,42 @@
-body {
+html,body {
+  background: rgb(242, 241, 239);  /* fallback for old browsers */
+   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Oxygen', sans-serif;
-  font-weight: 400;
-  line-height: 1.43;
-  color: #484848;
-  background-color: #f9fafc;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
+footer {
+  position: fixed;
+  color: ivory;
+  height: 80px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:  rgb(46, 49, 49);
+  text-align: center;
 }
 
-a:link {
-	text-decoration: none;
-	margin: 0;
-	padding: 0;
-}
-
-a:visited {
-	text-decoration: none;
-	margin: 0;
-	padding: 0;
-}
-
-h1, h2, h3, h3, h4, h5, h6, ul, ol, li {
-	margin: 0;
-	padding: 0;
-}
-
-ul, ol {
-	list-style-type: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 ::selection {
-	color: #fff;
-	background-color:#f44242;
+  color: #fff;
+  background-color:grey;
 }
 
 ::-moz-selection {
-	color:#fff;
-	background-color: #333;
+  color:#fff;
+  background-color: #333;
 }
+
+
 
 

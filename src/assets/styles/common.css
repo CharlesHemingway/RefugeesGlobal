@@ -1,0 +1,161 @@
+.layout{
+  background:transparent;
+  height:100vh;
+  margin: 0px;
+  padding: 40px;
+}
+
+.container { 
+  background: transparent;
+  text-align: center;  
+}
+
+.inner-layout{
+  background: transparent;
+  text-align: center;
+}
+.inner-layout-2{
+  background: transparent;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.image {
+  height: 100px;
+  margin-top: 1%;
+  position: relative;
+  padding: 0px;
+  background: transparent;
+
+/*  border: 1px solid #999;
+  border-style: inset; 
+  border-radius: 50%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+ */
+}
+
+.image-2 {
+  background-color: transparent;
+  height: 60px;
+  position: relative;
+  padding: 0px;
+}
+
+.image-3 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  padding: 0px;}
+
+.image-4 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  padding: 0px;}
+
+.navbar {
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.button {
+  /*background-color: transparent;*/
+  /*color: black;*/
+  padding: 5%;
+  outline: hidden;
+  border:hidden;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+
+}
+
+.button:hover {
+  background-color: rgb(207, 0, 15);
+}
+
+.button-2 {
+  background-color: transparent;
+  padding: 1%;
+  outline: hidden;
+  border:hidden;
+}
+
+.button-2:hover {
+  background-color: #00b5cc;
+  border-radius: 50%;
+
+}
+
+/*
+.brand {
+  font-family:source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-size: 19px;
+  font-weight: 200;
+
+}*/
+
+.cardtitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navlink {
+  text-decoration: none !important; 
+  font-weight: 700;
+  color: black !important;
+  padding: 30px 10px 30px 10px;
+}
+
+.navlink:hover {
+  color: rgb(217, 30, 24) !important;
+  opacity: 0.8;
+}
+
+.navlink-landing {
+  text-decoration: none !important; 
+  color: white !important;
+  padding: 20px 10px 20px 5px;
+}
+
+.navlink-landing:hover {
+  color: white !important;
+  opacity: 0.8;
+}
+
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .image {
+    height: 100px;}
+}

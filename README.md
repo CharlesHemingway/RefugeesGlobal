@@ -14,10 +14,10 @@ Currently brainstorming on how to build App using Ethereum and how to connect th
 View sample here: http://refugeesglobal-demo.surge.sh
 
 
-### Comms
+### Contact us
 
 Slack:refugeesglobal.slack.com
-Email:refugeesglobal@gmail.com 
+Email: Ossiel@riseup.net 
 Twitter:https://twitter.com/RefugeesGlobal
 
 
